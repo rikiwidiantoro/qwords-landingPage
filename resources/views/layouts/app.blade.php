@@ -133,8 +133,90 @@
       {{-- navbar --}}
 
       {{-- header --}}
-      
+      <header class="bg-dark text-bg-dark">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="display-5 fw-bold">Cloud Hosting Indonesia</h1>
+              <p class="col-md-8 fs-4">Cloud Hosting Indonesia dengan pelayanan terbaik dan harga murah serta diskon nama domain.</p>
+              <button class="btn btn-primary btn-lg" type="button">Example button</button>
+            </div>
+            <div class="col-md-4 text-end">
+              <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/illustration/internet-rumah-cepat.png" alt="gambar1" width="300">
+            </div>
+          </div>
+        </div>
+      </header>
       {{-- header --}}
+
+
+      {{-- main --}}
+      <main>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-layanan text-center">
+                <h1>Cloud Hosting dan VPS Diskon Hingga 60% !</h1>
+                <p>Layanan unggulan dengan teknologi terbaik untuk website anda</p>
+                <div class="kotak mt-5">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="card border-0 p-5" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-vhp.svg" class="card-img-top" alt="gambar">
+                        <div class="card-body">
+                          <a href="">Value Cloud Hosting</a>
+                          <h4>VCH1</h4>
+                          <p class="card-text">Rp 14.500</p>
+                          <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-5">
+              <div class="main-layanan-other text-center">
+                <h1>Lihat Juga Layanan Kami Yang Lain</h1>
+                <p>Layanan unggulan dengan teknologi terbaik untuk website anda</p>
+              </div>
+              <div class="kotak mt-4">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      {{-- <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-vhp.svg" class="card-img-top" alt="gambar"> --}}
+                      <div class="card-body">
+                        <h4>SSL</h4>
+                        <p class="card-text">Jadikan website Anda lebih terpercaya dan disukai oleh search engine dengan menggunakan SSL Certificate.</p>
+                        <span class="card-text">Mulai dari <br> Rp 112.000/thn</span><br>
+                        <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-5">
+              <div class="main-solusi-text text-center">
+                <h1>Solusi Terbaik dari Kami</h1>
+                <p>Kami menawarkan solusi terbaik untuk segala kebutuhan website dan sistem anda. Mulai dari blog hingga website bisnis dan perusahaan.</p>
+              </div>
+              <div class="main-blog">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card border-0" style="background-image: url('https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/product/img-corporate.png'); background-size: cover; height: 250px">
+                      <div class="card-body" style="height: 250px;"><br><br><br><br><br>
+                        <span class="card-text text-white align-bottom">Perusahaan <br> Wujudkan perusahaan profesional dan berkelas dengan dukungan website terbaik dan fitur keamanan ekstra</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      {{-- main --}}
 
 
 

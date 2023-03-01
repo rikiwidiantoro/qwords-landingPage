@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/logo-light.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/logo-light.png" width="300" alt="Laravel Logo"></a></p>
 
 task 5 tugas akhir virtual internship experience Fullstack Developer in Qwords by Rakamin Academy
 
