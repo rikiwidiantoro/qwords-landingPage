@@ -213,6 +213,67 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-12 mt-5">
+              <div class="main-komitmen text-center">
+                <h1>Komitmen Qwords</h1>
+                <p>Berbagai Alasan Mengapa Pelanggan memilih Qwords</p>
+              </div>
+              <div class="kotak mt-4">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      {{-- <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-vhp.svg" class="card-img-top" alt="gambar"> --}}
+                      <div class="card-body">
+                        <h4>Layanan 24/7</h4>
+                        <p class="card-text">Tim Technical Support dan Customer Service Qwords siap membantu Anda selama 24 jam, 7 hari. Anda dapat menghubungi melalui Live chat, Call Center, dan Support Ticket.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-5">
+              <div class="main-pelanggan text-center mb-3">
+                <h1>Telah Dipercaya oleh 45.000+ Pelanggan Aktif</h1>
+              </div>
+              <img style="width: 100%;" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partner-desktop.2.jpg">
+            </div>
+            <div class="col-md-12 mt-5">
+              <div class="main-partner text-center mb-3">
+                <h1>Partner kami</h1>
+              </div>
+              <div class="row" style="justify-content: center;align-items: center;">
+                <div class="list-pelanggan col-md-2">
+                  <a href="https://cloud.google.com/find-a-partner/partner/pt-qwords-company-international">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/googlecloud.png" alt="partner">
+                  </a>
+                </div>
+                <div class="list-pelanggan col-md-2">
+                  <a href="https://partnernoc.cpanel.net/res/6321/qwordscom-goldenfastnet.htm">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_cpanel.png" alt="partner">
+                  </a>
+                </div>
+                <div class="list-pelanggan col-md-2">
+                  <a href="https://www.idea.or.id/directory-anggota?search=Qwords">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_idea.png" alt="partner">
+                  </a>
+                </div>
+                <div class="row list-pelanggan w-100 col-md-1">
+                <a href="https://ach.id/keanggotaan/">
+                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" alt="partner" /></noscript>
+                </a></div><div class="row list-pelanggan w-100 col-md-2">
+                <a href="https://pandi.id/registrar/">
+                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" alt="partner" /></noscript>
+                </a></div><div class="row list-pelanggan w-100 col-md-2">
+                <a href="#">
+                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png" alt="partner" /></noscript>
+                </a></div><div class="row list-pelanggan w-100 col-md-2">
+                <a href="https://www.icann.org/en/accredited-registrars?sort-direction=asc&amp;sort-param=name&amp;page=1&amp;iana-number=4029&amp;view-all=true">
+                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" alt="partner" /></noscript>
+                </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
