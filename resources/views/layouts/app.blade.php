@@ -16,6 +16,7 @@
 
         {{-- bootstrap css cdn --}}
         <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
         <style>
             body {
@@ -139,7 +140,7 @@
             <div class="col-md-8">
               <h1 class="display-5 fw-bold">Cloud Hosting Indonesia</h1>
               <p class="col-md-8 fs-4">Cloud Hosting Indonesia dengan pelayanan terbaik dan harga murah serta diskon nama domain.</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
+              {{-- <button class="btn btn-primary btn-lg" type="button">Example button</button> --}}
             </div>
             <div class="col-md-4 text-end">
               <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/illustration/internet-rumah-cepat.png" alt="gambar1" width="300">
@@ -171,6 +172,39 @@
                         </div>
                       </div>
                     </div>
+                    <div class="col-md-3">
+                      <div class="card border-0 p-5" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-signature.svg" class="card-img-top" alt="gambar">
+                        <div class="card-body">
+                          <a href="">Unlimited Hosting</a>
+                          <h4>Signature</h4>
+                          <p class="card-text">Rp 89.900</p>
+                          <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card border-0 p-5" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-hpch.svg" class="card-img-top" alt="gambar">
+                        <div class="card-body">
+                          <a href="">High Performance</a>
+                          <h4>HPCH Bisnis 1</h4>
+                          <p class="card-text">Rp 79.000</p>
+                          <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card border-0 p-5" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-startup.svg" class="card-img-top" alt="gambar">
+                        <div class="card-body">
+                          <a href="">Cloud VPS KVM SSD</a>
+                          <h4>VPS SC1</h4>
+                          <p class="card-text">Rp 75.000</p>
+                          <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -184,11 +218,30 @@
                 <div class="row">
                   <div class="col-md-4">
                     <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-                      {{-- <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-vhp.svg" class="card-img-top" alt="gambar"> --}}
                       <div class="card-body">
                         <h4>SSL</h4>
-                        <p class="card-text">Jadikan website Anda lebih terpercaya dan disukai oleh search engine dengan menggunakan SSL Certificate.</p>
+                        <p class="card-text">Jadikan website Anda lebih terpercaya dan disukai oleh search engine dengan menggunakan SSL Certificate</p>
                         <span class="card-text">Mulai dari <br> Rp 112.000/thn</span><br>
+                        <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      <div class="card-body">
+                        <h4>Dedicated Server</h4>
+                        <p class="card-text">Nikmati kelola Dedicated Server sendiri dengan akses remote dari seluruh dunia tanpa batas</p>
+                        <span class="card-text">Mulai dari <br> Rp 499.000/thn</span><br>
+                        <button type="button" class="btn btn-outline-warning">order sekarang</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      <div class="card-body">
+                        <h4>Colocation Server</h4>
+                        <p class="card-text">Akses cepat dari seluruh dunia dengan fasilitas 24x7 full monitoring dengan cooling system terbaik serta fire extinguisher</p>
+                        <span class="card-text">Mulai dari <br> Rp 500.000/thn</span><br>
                         <button type="button" class="btn btn-outline-warning">order sekarang</button>
                       </div>
                     </div>
@@ -204,9 +257,26 @@
               <div class="main-blog">
                 <div class="row">
                   <div class="col-md-4">
-                    <div class="card border-0" style="background-image: url('https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/product/img-corporate.png'); background-size: cover; height: 250px">
-                      <div class="card-body" style="height: 250px;"><br><br><br><br><br>
-                        <span class="card-text text-white align-bottom">Perusahaan <br> Wujudkan perusahaan profesional dan berkelas dengan dukungan website terbaik dan fitur keamanan ekstra</span>
+                    <div class="card border-0" style="background-image: url('https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/product/img-organisasi.png'); background-size: cover; height: 250px">
+                      <div class="card-body text-white" style="height: 250px;"><br><br><br><br><br>
+                        <h4>Organisasi dan Komunitas</h4>
+                        <span class="card-text align-bottom">Website sebagai wadah perkumpulan komunitas atau organisasi di internet</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card border-0" style="background-image: url('https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/product/img-umkm.png'); background-size: cover; height: 250px">
+                      <div class="card-body text-white" style="height: 250px;"><br><br><br><br><br>
+                        <h4>UMKM dan Toko Online</h4>
+                        <span class="card-text align-bottom">Mendukung kebutuhan website yang fokus dalam pemasaran barang/ jasa secara online</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card border-0" style="background-image: url('https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/product/img-developer.png'); background-size: cover; height: 250px">
+                      <div class="card-body text-white" style="height: 250px;"><br><br><br><br>
+                        <h4>Developer</h4>
+                        <span class="card-text align-bottom">Tersedia paket hosting dengan spesifikasi khusus yang dev-friendly. Ekstra NodeJS dan Git Version Control.</span>
                       </div>
                     </div>
                   </div>
@@ -222,10 +292,33 @@
                 <div class="row">
                   <div class="col-md-3">
                     <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-                      {{-- <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/ic-vhp.svg" class="card-img-top" alt="gambar"> --}}
-                      <div class="card-body">
+                      <div class="card-body" style="font-size: 14px; text-align: justify;">
                         <h4>Layanan 24/7</h4>
                         <p class="card-text">Tim Technical Support dan Customer Service Qwords siap membantu Anda selama 24 jam, 7 hari. Anda dapat menghubungi melalui Live chat, Call Center, dan Support Ticket.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      <div class="card-body" style="font-size: 14px; text-align: justify;">
+                        <h4>Peering Network</h4>
+                        <p class="card-text">Jaringan di Qwords terhubung langsung ke public peering seperti OpenIXP dan CDIX yang membuat latency atau waktu tunggu pengiriman data semakin kecil.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      <div class="card-body" style="font-size: 14px; text-align: justify;">
+                        <h4>Panduan Lengkap</h4>
+                        <p class="card-text">Qwords dilengkapi dengan halaman knowledge base yang berisi tutorial dan tips seputar pengelolaan website. Dapat diakses dengan mudah dan solutif.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0 p-3" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                      <div class="card-body" style="font-size: 14px; text-align: justify;">
+                        <h4>Jaminan keamanan</h4>
+                        <p class="card-text">Keamanan menjadi fokus utama kami di Qwords. Tindakan pemantauan dan pencegahan yang berstandar & berkelanjutan telah menjadi perhatian utama kami.</p>
                       </div>
                     </div>
                   </div>
@@ -243,34 +336,40 @@
                 <h1>Partner kami</h1>
               </div>
               <div class="row" style="justify-content: center;align-items: center;">
-                <div class="list-pelanggan col-md-2">
+                <div class="list-pelanggan col-md-1">
                   <a href="https://cloud.google.com/find-a-partner/partner/pt-qwords-company-international">
-                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/googlecloud.png" alt="partner">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/googlecloud.png" alt="partner" width="150">
                   </a>
                 </div>
-                <div class="list-pelanggan col-md-2">
+                <div class="list-pelanggan col-md-1 mx-4">
                   <a href="https://partnernoc.cpanel.net/res/6321/qwordscom-goldenfastnet.htm">
-                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_cpanel.png" alt="partner">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_cpanel.png" alt="partner" width="200">
                   </a>
                 </div>
-                <div class="list-pelanggan col-md-2">
+                <div class="list-pelanggan col-md-1">
                   <a href="https://www.idea.or.id/directory-anggota?search=Qwords">
-                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_idea.png" alt="partner">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_idea.png" alt="partner" width="200">
                   </a>
                 </div>
-                <div class="row list-pelanggan w-100 col-md-1">
-                <a href="https://ach.id/keanggotaan/">
-                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" alt="partner" /></noscript>
-                </a></div><div class="row list-pelanggan w-100 col-md-2">
-                <a href="https://pandi.id/registrar/">
-                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" alt="partner" /></noscript>
-                </a></div><div class="row list-pelanggan w-100 col-md-2">
-                <a href="#">
-                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png" alt="partner" /></noscript>
-                </a></div><div class="row list-pelanggan w-100 col-md-2">
-                <a href="https://www.icann.org/en/accredited-registrars?sort-direction=asc&amp;sort-param=name&amp;page=1&amp;iana-number=4029&amp;view-all=true">
-                <img data-lazyloaded="1" src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" data-src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" alt="partner" data-ll-status="loaded" class="entered litespeed-loaded"><noscript><img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" alt="partner" /></noscript>
-                </a>
+                <div class="list-pelanggan col-md-1 px-5">
+                  <a href="https://ach.id/keanggotaan/">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_achi.png" alt="partner" width="200">
+                  </a>
+                </div>
+                <div class="list-pelanggan col-md-1 px-5 mx-5">
+                  <a href="https://pandi.id/registrar/">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_pandi.png" alt="partner" width="150">
+                  </a>
+                </div>
+                <div class="list-pelanggan col-md-1 px-4">
+                  <a href="#">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/AREDO-transparent.png"alt="partner" width="150">
+                  </a>
+                </div>
+                <div class="list-pelanggan col-md-1 mx-5">
+                  <a href="https://www.icann.org/en/accredited-registrars?sort-direction=asc&amp;sort-param=name&amp;page=1&amp;iana-number=4029&amp;view-all=true">
+                    <img src="https://www.qwords.com/wp-content/themes/qwords_v10/assets/images/partners/ic_icann.png" alt="partner" width="70">
+                  </a>
                 </div>
               </div>
             </div>
@@ -280,8 +379,33 @@
       {{-- main --}}
 
 
-
-        
+      {{-- footer --}}
+      <footer class="bg-dark text-bg-dark">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="footer-pt">
+                <p>© PT Qwords Company International</p>
+              </div>
+              <div class="footer-sosmed">
+                <a href="https://www.facebook.com/qwordsdotcom">
+                  <span class="fab fa-facebook-square" style="font-size: 26px; padding: 15px; margin-left: -15px; color: #ffffff;"></span>
+                </a>
+                <a href="https://www.instagram.com/qwordsdotcom/">
+                  <span class="fab fa-instagram-square" style="font-size: 26px; padding: 15px; margin-left: -15px; color: #ffffff;"></span>
+                </a>
+                <a href="https://twitter.com/qwordsdotcom">
+                  <span class="fab fa-twitter-square" style="font-size: 26px; padding: 15px; margin-left: -15px; color: #ffffff;"></span>
+                </a>
+                <a href="https://www.youtube.com/user/qwordsvideo">
+                  <span class="fab fa-youtube" style="font-size: 26px; padding: 15px; margin-left: -15px; color: #ffffff;"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      {{-- footer --}}
 
 
 
